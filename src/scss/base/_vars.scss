@@ -1,0 +1,40 @@
+// screen size
+$screen-width-max: 1920;
+$screen-width-min: 280;
+
+// grid size
+$container-width: 1400px;
+$grid-gap: 20px;
+
+// colors
+$white: #FFFFFF;
+$black: #000000;
+$red: #8D4545;
+$bloody-red: #743838;
+
+$text-color: $black;
+$text-second-color: $white;
+$button-background-color: $red;
+$sidenav-background-color: $white;
+$accent-color: $red;
+
+// fonts
+$font-main: 'Cormorant Infant', sans-serif;
+
+// font sizes
+$font-size-base: 25px;
+$font-size-main: 1rem;
+$font-size-small: 0.5rem;
+$font-size-medium: 2rem;
+$font-size-big: 4rem;
+$font-size-extra: 8rem;
+
+// font sizes mobile
+$font-size-main-mobile: 0.6rem;
+$font-size-small-mobile: 0.4rem;
+$font-size-medium-mobile: 0.6rem;
+$font-size-big-mobile: 1.2rem;
+$font-size-extra-mobile: 1.2rem;
+
+// sidenav
+$sidenav-width: clamp(80px, 130 / 1920 * 100dvw, 130px);
