@@ -14,7 +14,6 @@ $bloody-red: #743838;
 
 $text-color: $black;
 $text-second-color: $white;
-$button-background-color: $red;
 $sidenav-background-color: $white;
 $accent-color: $red;
 
@@ -37,4 +36,4 @@ $font-size-big-mobile: 1.2rem;
 $font-size-extra-mobile: 1.2rem;
 
 // sidenav
-$sidenav-width: clamp(80px, 130 / 1920 * 100dvw, 130px);
+$sidenav-btn-size: 80px;
