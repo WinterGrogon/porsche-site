@@ -37,3 +37,5 @@ $font-size-extra-mobile: 1.2rem;
 
 // sidenav
 $sidenav-btn-size: 80px;
+$sidenav-padding: 15px;
+$gap-from-sidenav: $sidenav-btn-size + $sidenav-padding * 2 + $grid-gap;

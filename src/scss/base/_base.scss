@@ -4,11 +4,16 @@ body {
     color: $text-color;
 }
 
-.container {
-    width: 100%;
+.container {    
+    width: min(100% - $gap-from-sidenav, $container-width);
     height: 100%;
-
+    margin-inline: auto;
+    transform: translateX(-0.5 * $gap-from-sidenav + $grid-gap / 2);
     padding: $grid-gap;
+
+    @media screen and (max-width: 1000px) {
+        transform: none;
+    }
 }
 
 h1 {
