@@ -4,6 +4,10 @@ body {
     color: $text-color;
 }
 
+main>section {
+    margin-top: $grid-gap;
+}
+
 .container {    
     width: min(100% - $gap-from-sidenav, $container-width);
     height: 100%;
