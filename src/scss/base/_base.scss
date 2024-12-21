@@ -18,6 +18,10 @@ main>section {
     @media screen and (max-width: 1000px) {
         transform: none;
     }
+
+    @media screen and (max-width: 800px) {
+        width: 90%;
+    }
 }
 
 h1 {

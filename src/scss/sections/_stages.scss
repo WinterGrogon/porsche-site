@@ -1,0 +1,43 @@
+.stages {
+    .container {
+        @include border;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+
+        max-height: 150px;
+        overflow: hidden;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        column-gap: $grid-gap / 2;
+
+        width: 100%;
+        min-height: 150px;
+        animation: stages-slider 10s ease-in-out 0s infinite;
+    }
+    
+    &__icon {
+        height: .6em;
+    }
+    
+    &__text {
+        font-size: adaptive-font-size($font-size-medium, $font-size-medium-mobile);
+    }
+
+    &__years {
+        opacity: .6;
+    }
+}
