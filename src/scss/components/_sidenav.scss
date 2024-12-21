@@ -42,25 +42,33 @@
         transition: scale .3s ease,
                     background-color .2s ease-out;
 
+        &>.sidenav__link::before {
+            @include border;
+
+            content: attr(data-name);
+
+            display: none;
+            padding: 15px 30px;
+
+            background-color: $accent-color;
+            color: $text-second-color;
+
+            position: absolute;
+            top: 50%;
+            right: 150%;
+            transform: translate(-10px, -50%);
+        }
+
         &:hover {
             scale: 0.9;
             background-color: $accent-color;
+        }
 
-            &>.sidenav__link::before {
-                @include border;
-
-                content: attr(data-name);
-
-                display: block;
-                padding: 15px 30px;
-
-                background-color: $accent-color;
-                color: $text-second-color;
-
-                position: absolute;
-                top: 50%;
-                right: 150%;
-                transform: translate(-10px, -50%);
+        @media screen and (min-width: 1001px) {
+            &:hover {
+                &>.sidenav__link::before {
+                    display: block;
+                }
             }
         }
     }
