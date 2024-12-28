@@ -1,0 +1,11 @@
+.models {
+    &>.container {
+        @include border;
+    }
+    
+    &__variants {
+        display: flex;
+        flex-direction: column;
+        gap: $grid-gap;
+    }
+}
