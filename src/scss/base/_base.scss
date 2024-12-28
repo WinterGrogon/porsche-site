@@ -8,7 +8,11 @@ html {
 }
 
 main>section {
-    margin-top: $grid-gap;
+    margin-top: $grid-gap * 2;
+    
+    &:last-of-type {
+        margin-bottom: $grid-gap * 2;
+    }
 }
 
 .container {    

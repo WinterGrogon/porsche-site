@@ -100,7 +100,10 @@ html {
 }
 
 main > section {
-  margin-top: 20px;
+  margin-top: 40px;
+}
+main > section:last-of-type {
+  margin-bottom: 40px;
 }
 
 .container {
