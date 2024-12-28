@@ -605,7 +605,7 @@ p, a {
   height: 0.6em;
 }
 .stages__text {
-  font-size: calc(0.6rem + 35 * (100dvw - 280px) / (1920 - 280));
+  font-size: calc(0.6rem + 10 * (100dvw - 280px) / (1920 - 280));
 }
 .stages__years {
   opacity: 0.6;

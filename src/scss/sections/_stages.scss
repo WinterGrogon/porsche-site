@@ -34,7 +34,7 @@
     }
     
     &__text {
-        font-size: adaptive-font-size($font-size-medium, $font-size-medium-mobile);
+        font-size: adaptive-font-size($font-size-main, $font-size-main-mobile);
     }
 
     &__years {
